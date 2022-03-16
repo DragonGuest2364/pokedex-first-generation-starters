@@ -2,8 +2,8 @@
     display:none;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     border-radius: 10px;
-
 }
+
 .cartao-topo.tipo-grass {
     border-radius: 10px;
     background-image: url(https://pm1.narvii.com/7243/0b36782d158f6da0639e38ebf94af3d5c37288c2r1-668-486v2_hq.jpg);
@@ -26,11 +26,11 @@
 }
 
 .cartao-pokemon .cartao-topo {
-    padding: 30px 40px 0;
+    padding: 30 40px 0;
 }
 
 .cartao-pokemon .nome {
-    margin-bottom: 5px;
+    margin-bottom: 25px;
 }
 
 .cartao-pokemon .tipo {
@@ -53,26 +53,13 @@
     align-items: center;
       border-radius: 25px;
 }
-.cartao-imagem-bulbasaur{
+.cartao-imagem-pokemon{
     
     position: relative;
     bottom: 8px;
-    right: -150px;
+    right: -200px;
 }
 
-.cartao-imagem-squirtle{
-    
-    position: relative;
-    bottom: 8px;
-    right: -150px;
-}
-
-.cartao-imagem-charmander{
-    
-    position: relative;
-    bottom: 8px;
-    right: -150px;
-}
 .cartao-pokemon .cartao-imagem {
     width: 350px;
     height: 350px;
@@ -129,7 +116,7 @@ right: -3px;
         top: 3px;
         right: -3px;
         }
-
+        
 .cartao-pokemon.aberto {
     display: block;
 }
